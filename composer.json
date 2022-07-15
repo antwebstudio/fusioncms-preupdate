@@ -1,0 +1,22 @@
+{
+    "name": "antweb/fusioncms-preupdate",
+    "autoload": {
+        "psr-4": {
+            "Ant\\PreFusionUpdate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hui Yang",
+            "email": "chy1988@antwebstudio.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ant\\PreFusionUpdate\\FusionUpdateServiceProvider"
+            ]
+        }
+    }
+}
